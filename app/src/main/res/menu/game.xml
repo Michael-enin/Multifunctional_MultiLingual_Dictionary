@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Kaku"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/Ke_Am"
+                android:title=""
+                android:orderInCategory="100"
+                android:icon="@drawable/ke_am"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/ke_En"
+                android:title=""
+                android:icon="@drawable/ke_en"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/am_ke"
+                android:title=""
+                android:icon="@drawable/am_ke"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDFDB"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/toolbarHome"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp">
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/radius_edit_text"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="3dp"
+            android:gravity=""
+            android:hint="Search"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColor="#000000"
+            android:textColorHint="#9b9a9a"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="9dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#F1F0EC"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Content area "/>
+    </FrameLayout>
+
+</LinearLayout>
